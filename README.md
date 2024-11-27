@@ -1,6 +1,9 @@
-# kind-setup
+# kind-setup for windows
 Kubernetes local Windows setup with KIND Multi-cluster
 Added Ports 30950 for mapping wih localhost 30950 for testing node port
+
+> [!NOTE]
+> Metrics server needs to run seperately 
 
 # Command to create cluster
 kind create cluster --config kind-cluster-config.yaml --name kube-test-cluster
