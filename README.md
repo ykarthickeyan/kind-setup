@@ -1,4 +1,6 @@
-# kind-setup for windows
+# kind-setup cluster setup for windows
+# The folders have different kind configurations for creating clusters on the go.
+https://kind.sigs.k8s.io/docs/user/quick-start/#installation --> Install kind depending on your OS
 Kubernetes local Windows setup with KIND Multi-cluster
 Added Ports 30950 for mapping wih localhost 30950 for testing node port
 
